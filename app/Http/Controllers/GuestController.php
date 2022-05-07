@@ -168,7 +168,7 @@ class GuestController extends Controller implements ManageTableInterface
             ],
             [
                 'id'    => 'PESEL',
-                'title' => trans('general.PESEL'),
+                'title' => 'Mobile number',
                 'value' => function (Guest $data) {
                     return $data->PESEL;
                 },
@@ -179,7 +179,7 @@ class GuestController extends Controller implements ManageTableInterface
             ],
             [
                 'id'    => 'contact',
-                'title' => trans('general.contact'),
+                'title' => 'Remarks',
                 'value' => function (Guest $data) {
                     return $data->contact;
                 },
