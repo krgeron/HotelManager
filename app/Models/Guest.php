@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property string                     $first_name
  * @property string                     $last_name
  * @property string                     $address
- * @property string                     $zip_code
+ * @property string|null                $zip_code
  * @property string                     $place
  * @property string                     $PESEL
  * @property string|null                $contact
