@@ -33,13 +33,13 @@ class GuestTableService implements TableServiceInterface
                 },
             ],
             [
-                'title' => trans('general.PESEL'),
+                'title' => 'Mobile Number',
                 'value' => function (Guest $data) {
                     return $data->PESEL;
                 },
             ],
             [
-                'title' => trans('general.contact'),
+                'title' => 'Remarks',
                 'value' => function (Guest $data) {
                     return $data->contact;
                 },
