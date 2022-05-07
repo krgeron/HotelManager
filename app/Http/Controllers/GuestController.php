@@ -153,7 +153,6 @@ class GuestController extends Controller implements ManageTableInterface
                     return $data->zip_code;
                 },
                 'optional' => [
-                    'required'    => 'required',
                     'placeholder' => '00-000',
                 ],
             ],
