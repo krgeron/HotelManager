@@ -13,7 +13,7 @@ class CreateGuestsTable extends Migration
             $table->string('first_name', 35);
             $table->string('last_name', 45);
             $table->string('address', 50);
-            $table->string('zip_code', 12);
+            $table->string('zip_code')->nullable();
             $table->string('place', 35);
             $table->string('PESEL', 11);
             $table->string('contact')->nullable();
